@@ -1,0 +1,15 @@
+{
+  "dist": {
+    "files": [
+      {
+        "dot": true,
+        "src": [
+          ".tmp",
+          "<%= dashboard.dist %>/{,*/}*",
+          "!<%= dashboard.dist %>/.git{,*/}*"
+        ]
+      }
+    ]
+  },
+  "server": ".tmp"
+}

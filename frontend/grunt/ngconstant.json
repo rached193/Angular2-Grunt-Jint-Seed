@@ -1,0 +1,61 @@
+{
+  "options": {
+    "space": "  ",
+    "wrap": "(function() { \n\n \t// Auto generado \n\n \t'use strict';\n\n \t{%= __ngModule %} \n\n })();",
+    "name": "dashboard.config"
+  },
+  "development": {
+    "options": {
+      "dest": "<%= dashboard.app %>/scripts/dashboard.config.js"
+    },
+    "constants": {
+      "ENV": {
+        "name": "development",
+        "serverUrl": "http://localhost:3000/bi/",
+        "debug": true
+      }
+    }
+  },
+  "offline": {
+    "options": {
+      "dest": "<%= dashboard.app %>/scripts/dashboard.config.js"
+    },
+    "constants": {
+      "ENV": {
+        "name": "offline",
+        "serverUrl": "offline/bi/",
+        "apiEndpoint": "http://10.107.16.97/swarovski",
+        "debug": true,
+        "offline": true
+      }
+    }
+  },
+  "preproduction": {
+    "options": {
+      "dest": "<%= dashboard.app %>/scripts/dashboard.config.js"
+    },
+    "constants": {
+      "ENV": {
+        "name": "preproduction",
+        "serverUrl": "http://10.1.15.22/swarovski/dashboards/rest/bi/",
+        "apiEndpoint": "http://10.1.15.22/swarovski",
+        "debug": false,
+        "offline": false
+      }
+    }
+  },
+  "production": {
+    "options": {
+      "dest": "<%= dashboard.app %>/scripts/dashboard.config.js"
+    },
+    "constants": {
+      "ENV": {
+        "name": "production",
+        "serverUrl": "http://csswarovski.havasmedia.com/swarovski/dashboards/rest/bi/",
+        "apiEndpoint": "http://csswarovski.havasmedia.com/swarovski",
+        "debug": false,
+        "offline": false
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "build": {
+    "files": {
+      "<%= dashboard.app %>/styles/dashboard.css": [
+        "<%= dashboard.app %>/styles/less/main.less"
+      ]
+    }
+  },
+  "dist": {
+    "files": {
+      "<%= dashboard.app %>/styles/dashboard.css": [
+        "<%= dashboard.app %>/styles/less/main.less"
+      ]
+    },
+    "options": {
+      "compress": true
+    }
+  }
+}

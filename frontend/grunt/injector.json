@@ -1,0 +1,21 @@
+{
+  "options": {
+    "relative": true
+  },
+  "local_dependencies": {
+    "files": {
+      "<%= dashboard.app %>/index.html": [
+        "<%= dashboard.app %>/scripts/thirdparty/*.js",
+        "<%= dashboard.app %>/scripts/*/*module.js",
+        "<%= dashboard.app %>/scripts/core/*/*.js",
+        "<%= dashboard.app %>/scripts/*/*.js",
+        "<%= dashboard.app %>/scripts/sections/*/*.module.js",
+        "<%= dashboard.app %>/scripts/sections/*/charts/*.js",
+        "<%= dashboard.app %>/scripts/sections/*/*.js",
+        "<%= dashboard.app %>/scripts/*.module.js",
+        "<%= dashboard.app %>/scripts/*.js",
+        "<%= dashboard.app %>/styles/*.css"
+      ]
+    }
+  }
+}

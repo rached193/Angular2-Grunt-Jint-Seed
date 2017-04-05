@@ -1,0 +1,46 @@
+{
+  "bower": {
+    "files": [
+      "bower.json"
+    ],
+    "tasks": [
+      "wiredep"
+    ]
+  },
+  "js": {
+    "files": [
+      "<%= dashboard.app %>/scripts/{,*/}*.js"
+    ],
+    "tasks": [
+      "newer:jshint:all"
+    ],
+    "options": {
+      "livereload": "<%= connect.options.serve %>"
+    }
+  },
+  "styles": {
+    "files": [
+      "<%= dashboard.app %>/styles/{,*/}*.css"
+    ],
+    "tasks": [
+      "",
+      ""
+    ]
+  },
+  "lessStyles": {
+    "files": [
+      "<%= dashboard.app %>/styles/less/{,*/}*.less"
+    ],
+    "tasks": [
+      "less"
+    ],
+    "options": {
+      "nospawn": true
+    }
+  },
+  "gruntfile": {
+    "files": [
+      "Gruntfile.js"
+    ]
+  }
+}

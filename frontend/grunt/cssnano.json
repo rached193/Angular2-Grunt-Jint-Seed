@@ -1,0 +1,10 @@
+{
+  "options": {
+    "sourcemap": true
+  },
+  "dist": {
+    "files": {
+      "<%= dashboard.app %>/styles/dashboard-min.css": "<%= dashboard.app %>/styles/dashboard.css"
+    }
+  }
+}

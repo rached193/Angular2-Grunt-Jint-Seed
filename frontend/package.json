@@ -1,0 +1,39 @@
+{
+  "name": "seed-angular2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/index.html",
+  "author": "acollados",
+  "license": "ISC",
+  "homepage": "https://github.com/rached193/GAE-Node#readme",
+  "dependencies": {
+    "typescript": "^2.2.2"
+  },
+  "devDependencies": {
+    "jspm": "^0.16.53",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-cssnano": "^2.1.0",
+    "grunt-injector": "^1.1.0",
+    "grunt-ng-constant": "^2.0.1",
+    "grunt-wiredep": "^3.0.1",
+    "jit-grunt": "^0.10.0",
+    "load-grunt-config": "^0.19.2",
+    "serve-static": "^1.12.1",
+    "time-grunt": "^1.4.0"
+  },
+  "jspm": {
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-beta.21",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.10",
+      "zone.js": "npm:zone.js@^0.8.5"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^2.0.7"
+    }
+  }
+}
