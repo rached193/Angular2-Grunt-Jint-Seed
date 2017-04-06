@@ -13,6 +13,7 @@ System.config({
   map: {
     "@angular": "github:angular/angular@4.0.1",
     "@angular/core": "npm:@angular/core@4.0.1",
+    "@angular/forms": "npm:@angular/forms@4.0.1",
     "@angular/platform-browser": "npm:@angular/platform-browser@4.0.1",
     "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@4.0.1",
     "angular2": "npm:angular2@2.0.0-beta.21",
@@ -94,6 +95,12 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.2",
       "rxjs": "npm:rxjs@5.3.0",
       "zone.js": "npm:zone.js@0.8.5"
+    },
+    "npm:@angular/forms@4.0.1": {
+      "@angular/common": "npm:@angular/common@4.0.1",
+      "@angular/core": "npm:@angular/core@4.0.1",
+      "@angular/platform-browser": "npm:@angular/platform-browser@4.0.1",
+      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:@angular/platform-browser-dynamic@4.0.1": {
       "@angular/common": "npm:@angular/common@4.0.1",

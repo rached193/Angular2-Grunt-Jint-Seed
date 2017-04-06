@@ -29,6 +29,7 @@
   "jspm": {
     "dependencies": {
       "@angular/core": "npm:@angular/core@^4.0.1",
+      "@angular/forms": "npm:@angular/forms@^4.0.1",
       "@angular/platform-browser": "npm:@angular/platform-browser@^4.0.1",
       "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@^4.0.1",
       "reflect-metadata": "npm:reflect-metadata@^0.1.10",
