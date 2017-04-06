@@ -11,6 +11,10 @@ System.config({
   },
 
   map: {
+    "@angular": "github:angular/angular@4.0.1",
+    "@angular/core": "npm:@angular/core@4.0.1",
+    "@angular/platform-browser": "npm:@angular/platform-browser@4.0.1",
+    "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@4.0.1",
     "angular2": "npm:angular2@2.0.0-beta.21",
     "reflect-metadata": "npm:reflect-metadata@0.1.10",
     "typescript": "npm:typescript@2.2.2",
@@ -77,6 +81,30 @@ System.config({
     },
     "github:jspm/nodelibs-vm@0.1.0": {
       "vm-browserify": "npm:vm-browserify@0.0.4"
+    },
+    "npm:@angular/common@4.0.1": {
+      "@angular/core": "npm:@angular/core@4.0.1",
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:@angular/compiler@4.0.1": {
+      "@angular/core": "npm:@angular/core@4.0.1",
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:@angular/core@4.0.1": {
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "rxjs": "npm:rxjs@5.3.0",
+      "zone.js": "npm:zone.js@0.8.5"
+    },
+    "npm:@angular/platform-browser-dynamic@4.0.1": {
+      "@angular/common": "npm:@angular/common@4.0.1",
+      "@angular/compiler": "npm:@angular/compiler@4.0.1",
+      "@angular/core": "npm:@angular/core@4.0.1",
+      "@angular/platform-browser": "npm:@angular/platform-browser@4.0.1"
+    },
+    "npm:@angular/platform-browser@4.0.1": {
+      "@angular/common": "npm:@angular/common@4.0.1",
+      "@angular/core": "npm:@angular/core@4.0.1",
+      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:angular2@2.0.0-beta.21": {
       "reflect-metadata": "npm:reflect-metadata@0.1.2",
