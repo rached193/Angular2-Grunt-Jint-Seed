@@ -38,7 +38,7 @@ module.exports = function (grunt) {
 		grunt.task.run([
 			// 'clean:server',
 			// 'ngconstant:' + env,
-			// 'less:build',
+			'less:build',
 			// 'wiredep',
 			// 'injector',
 			// 'cssnano:dist',

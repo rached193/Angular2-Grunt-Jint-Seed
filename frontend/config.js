@@ -18,6 +18,7 @@ System.config({
     "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@4.0.1",
     "angular2": "npm:angular2@2.0.0-beta.21",
     "reflect-metadata": "npm:reflect-metadata@0.1.10",
+    "rxjs": "npm:rxjs@5.3.0",
     "typescript": "npm:typescript@2.2.2",
     "zone.js": "npm:zone.js@0.8.5",
     "github:jspm/nodelibs-assert@0.1.0": {

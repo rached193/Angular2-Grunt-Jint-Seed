@@ -1,0 +1,14 @@
+.container {
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+.container .personajes {
+  list-style-type: none;
+}
+.container .personajes li {
+  margin-top: 10px;
+  border-style: groove;
+}

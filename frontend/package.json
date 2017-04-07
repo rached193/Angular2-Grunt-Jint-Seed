@@ -33,6 +33,7 @@
       "@angular/platform-browser": "npm:@angular/platform-browser@^4.0.1",
       "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@^4.0.1",
       "reflect-metadata": "npm:reflect-metadata@^0.1.10",
+      "rxjs": "npm:rxjs@^5.3.0",
       "zone.js": "npm:zone.js@^0.8.5"
     },
     "devDependencies": {
