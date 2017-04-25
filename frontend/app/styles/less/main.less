@@ -1,16 +1,29 @@
+body {
+  background-color: #1F271B;
+}
 
-.container {
-  max-width: 768px;
-  margin-left: auto;
-  margin-right: auto;
+.container-parent {
   display: flex;
-  flex-direction: column;
-  .personajes {
-    list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 
-    li {
-      margin-top: 10px;
-      border-style: groove;
+  .container {
+    background-color: #FFFFFF;
+    max-width: 768px;
+
+    h1:first-child {
+      text-align: center;
+    }
+
+    .personajes {
+      padding: 0 15px;
+      list-style-type: none;
+
+      li {
+        margin-top: 10px;
+        border-style: groove;
+      }
     }
   }
 }

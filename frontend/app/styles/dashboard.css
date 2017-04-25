@@ -1,14 +1,24 @@
-.container {
-  max-width: 768px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: column;
+body {
+  background-color: #1F271B;
 }
-.container .personajes {
+.container-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.container-parent .container {
+  background-color: #FFFFFF;
+  max-width: 768px;
+}
+.container-parent .container h1:first-child {
+  text-align: center;
+}
+.container-parent .container .personajes {
+  padding: 0 15px;
   list-style-type: none;
 }
-.container .personajes li {
+.container-parent .container .personajes li {
   margin-top: 10px;
   border-style: groove;
 }

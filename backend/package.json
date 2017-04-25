@@ -1,9 +1,10 @@
 {
-  "name": "gae-node",
+  "name": "gaeNode",
   "description": "Prueba de BackEnd con noode",
   "version": "0.0.1",
   "private": true,
   "license": "Apache Version 2.0",
+  "author": "acollados",
   "engines": {
     "node": ">=4.3.2"
   },
