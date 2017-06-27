@@ -1,29 +1,6 @@
-body {
-  background-color: #1F271B;
-}
+@import 'variables.less';
 
-.container-parent {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+@import 'fonts/fonts.less';
 
-  .container {
-    background-color: #FFFFFF;
-    max-width: 768px;
-
-    h1:first-child {
-      text-align: center;
-    }
-
-    .personajes {
-      padding: 0 15px;
-      list-style-type: none;
-
-      li {
-        margin-top: 10px;
-        border-style: groove;
-      }
-    }
-  }
-}
+@import 'layout/layout.less';
+@import 'components/components.less';

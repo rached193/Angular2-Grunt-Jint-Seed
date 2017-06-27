@@ -1,0 +1,26 @@
+<div class="container-parent">
+    <div class="container">
+        <h1>{{title}}</h1>
+        {{diagnostic}}
+        <form class="hero-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input id="name" name="name" [(ngModel)]="model.nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label for="clase">Clase</label>
+                <select [(ngModel)]="model.clase" name="clase">
+                    <option id="clase" *ngFor="let clase of clases" [value]="clase">{{clase}}</option>
+                </select>
+            </div>
+            <button type="button" (click)="newCharacter()" class="btn btn-success">Añadir</button>
+        </form>
+        <ul class="personajes">
+            <li *ngFor="let personaje of listado">
+                <h2>Info: {{personaje.nombre}}</h2>
+                <div><label>Rango: </label>{{personaje.rango}}</div>
+            </li>
+        </ul>
+    </div>
+</div>

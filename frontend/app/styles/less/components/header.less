@@ -1,0 +1,47 @@
+.filterCarrousel {
+  padding: 0 0 0 5%;
+  border-bottom: 5px solid rgba(255, 255, 255, .3);
+  font-size: 0;
+
+  img {
+    width: 20%;
+    vertical-align: top;
+    display: inline-block;
+  }
+  div {
+    &.container-carrousel {
+      display: inline-block;
+      width: 80%;
+
+      h2, h3 {
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+      }
+
+      h2 {
+        font-size: 2.2rem;
+      }
+
+      h3 {
+        font-family: 'Gotham-Thin';
+        font-size: 1rem;
+      }
+
+      .column-carrousel {
+        width: 100%;
+        display: flex;
+
+        span.row-carrousel {
+          width: 100%;
+          font-size: 16px;
+
+          & div:first-child {
+            font-family: 'Gotham-Light';
+            font-size: x-small;
+          }
+        }
+      }
+    }
+  }
+}
