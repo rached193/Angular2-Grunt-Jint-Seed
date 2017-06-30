@@ -1,6 +1,17 @@
 # typescript-seed
 
-Este proyecto es una semilla 
+## Install
+
+Install the dependencies 
+`npm install`
+
+Install jspm (browser package management)
+`npm install jspm -g`
+
+Install the web dependencies 
+`jspm install`
+
+## Config
 
 ## Build & development
 

@@ -16,6 +16,7 @@ System.config({
     "@angular/forms": "npm:@angular/forms@4.2.5",
     "@angular/platform-browser": "npm:@angular/platform-browser@4.2.5",
     "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@4.2.5",
+    "@angular/router": "npm:@angular/router@4.2.5",
     "angular2": "npm:angular2@2.0.0-beta.21",
     "reflect-metadata": "npm:reflect-metadata@0.1.10",
     "rxjs": "npm:rxjs@5.4.1",
@@ -118,6 +119,14 @@ System.config({
       "@angular/common": "npm:@angular/common@4.2.5",
       "@angular/core": "npm:@angular/core@4.2.5",
       "process": "github:jspm/nodelibs-process@0.1.2",
+      "tslib": "npm:tslib@1.7.1"
+    },
+    "npm:@angular/router@4.2.5": {
+      "@angular/common": "npm:@angular/common@4.2.5",
+      "@angular/core": "npm:@angular/core@4.2.5",
+      "@angular/platform-browser": "npm:@angular/platform-browser@4.2.5",
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "rxjs": "npm:rxjs@5.4.1",
       "tslib": "npm:tslib@1.7.1"
     },
     "npm:angular2@2.0.0-beta.21": {
