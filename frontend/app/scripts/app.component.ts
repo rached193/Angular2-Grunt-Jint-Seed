@@ -2,7 +2,7 @@
 import {Observable} from 'rxjs/Rx';
 
 /* Dependecias de Angular */
-import {Component, NgModule} from '@angular/core'; // NgModule -> Modulo Raiz de la aplicacion
+import {Component, NgModule} from "@angular/core"; // NgModule -> Modulo Raiz de la aplicacion
 import {BrowserModule} from '@angular/platform-browser';
 import {RouterModule}   from '@angular/router';
 

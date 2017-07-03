@@ -10,7 +10,7 @@
     "typescript": "^2.2.2"
   },
   "devDependencies": {
-    "jspm": "^0.16.53",
+    "connect-modrewrite": "^0.10.1",
     "grunt": "^1.0.1",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-connect": "^1.0.2",
@@ -22,6 +22,7 @@
     "grunt-ng-constant": "^2.0.1",
     "grunt-wiredep": "^3.0.1",
     "jit-grunt": "^0.10.0",
+    "jspm": "^0.16.53",
     "load-grunt-config": "^0.19.2",
     "serve-static": "^1.12.1",
     "time-grunt": "^1.4.0"

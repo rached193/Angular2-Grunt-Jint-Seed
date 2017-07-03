@@ -1,4 +1,5 @@
 var serveStatic = require('serve-static');
+var modRewrite = require('connect-modrewrite');
 
 module.exports = {
 	options: {
@@ -10,6 +11,7 @@ module.exports = {
 			open: true,
 			middleware: function (connect) {
 				return [
+					modRewrite(['^[^\\.]*$ /index.html [L]']),
 					serveStatic('.tmp'),
 					connect().use(
 						'/jspm_packages',
